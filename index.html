@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link href="C:\Users\hp\AppData\Local\Temp\8abda478-8e56-4453-94b2-104fa60c974a_bootstrap-5.3.3-dist (3).zip.74a\bootstrap-5.3.3-dist\css\bootstrap.min.css" rel="stylesheet">
+   <link href="index.css" type="text/css" rel="stylesheet"> 
+</head>
+<body >
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card shadow" style="width: 320px;">
+            <div class="calculator">
+                <input type="text" id="result" class="form-control text-end mb-3 mt-3   bg-primary  text-white " disabled placeholder="0">
+                <div class="row g-2  mb-3 px-3">
+                    <div class="col-3">
+                        <button onclick="appendToResult('7')" class="btn btn-secondary  text-primary w-100">7</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="appendToResult('8')" class="btn btn-secondary text-primary w-100">8</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="appendToResult('9')" class="btn btn-secondary text-primary w-100">9</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="del()" class="btn btn-primary  text-white w-100">DEL</button>
+                    </div>
+                </div>
+                <div class="row g-2  mb-3 px-3">
+                    <div class="col-3">
+                        <button onclick="appendToResult('4')" class="btn btn-secondary  text-primary w-100">4</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="appendToResult('5')" class="btn btn-secondary  text-primary w-100">5</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="appendToResult('6')" class="btn btn-secondary  text-primary w-100">6</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="appendToResult('+')" class="btn btn-secondary text-primary w-100">+</button>
+                    </div>
+                </div>
+                <div class="row g-2  mb-3 px-3">
+                    <div class="col-3">
+                        <button onclick="appendToResult('1')" class="btn btn-secondary  text-primary w-100">1</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="appendToResult('2')" class="btn btn-secondary  text-primary w-100">2</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="appendToResult('3')" class="btn btn-secondary text-primary w-100">3</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="appendToResult('-')" class="btn btn-secondary  text-primary w-100">-</button>
+                    </div>
+                </div>
+                <div class="row g-2   mb-3 px-3">
+                    <div class="col-3">
+                        <button onclick="appendToResult('.')" class="btn btn-secondary text-primary w-100">.</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="appendToResult('0')" class="btn btn-secondary text-primary w-100">0</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="appendToResult('/')" class="btn btn-secondary text-primary w-100">/</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="appendToResult('*')" class="btn btn-secondary  text-primary w-100">*</button>
+                    </div>
+                </div>
+                <div class="row g-2  mb-3 px-3">
+                    <div class="col-6">
+                        <button onclick="reset()" class="btn btn-primary  text-white w-100">RESET</button>
+                    </div>
+                    <div class="col-6">
+                        <button onclick="displayResult()" class="btn btn-success  text-white w-100">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+
+
+
+
+
+    <!-- Keys
+ Desaturated dark blue
+(key background):
+hsl(225, 21%, 49%)
+ Desaturated dark blue
+(key shadow): hsl(224,
+28%, 35%)
+ Red (key background,
+toggle): hsl(6, 63%, 50%)
+ Dark red (key shadow):
+hsl(6, 70%, 34%)
+ Light grayish orange (key
+background): hsl(30, 25%,
+89%)
+ Grayish orange (key
+shadow): hsl(28, 16%,
+65%)
+
+Text
+ Very dark grayish blue:
+hsl(221, 14%, 31%)
+ White: hsl(0, 0%, 100%)
+
+
+Backgrounds
+ Very dark desaturated
+blue (main background):
+hsl(222, 26%, 31%)
+ Very dark desaturated
+blue (toggle background,
+keypad background):
+hsl(223, 31%, 20%)
+ Very dark desaturated
+blue (screen background):
+hsl(224, 36%, 15%) -->

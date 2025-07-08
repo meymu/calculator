@@ -1,0 +1,38 @@
+.btn-primary{
+    background-color: hsl(225, 21%, 49%) !important;
+}
+.btn-primary:hover{
+box-shadow:  hsl(224,28%, 35%)!important;
+}
+.btn-secondary{
+    background-color:  hsl(30, 25%,89%) !important;
+    
+}
+.btn-secondary:hover{
+   box-shadow:hsl(28, 16%,65%)!important ; 
+
+}
+.btn-success{
+background-color: hsl(6, 63%, 50%) !important;
+}
+
+.btn-success:hover{
+box-shadow: hsl(6, 70%, 34%) !important ;
+}
+body{
+   background-color:  hsl(222, 26%, 31%);
+}
+
+
+.bg-dark{
+    background-color:  hsl(223, 31%, 20%);
+}
+.calculator{
+background-color:hsl(223, 31%, 20%);
+}
+.bg-primary{
+   background-color:  hsl(223, 31%, 20%) ;
+}
+.text-primary{
+background-color:hsl(221, 14%, 31%) ; 
+}
